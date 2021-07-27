@@ -31,6 +31,7 @@ let update = function () {
     });
     table_body.innerHTML = str;
 ;}
+update();
 
 
 add.addEventListener("click", update);
